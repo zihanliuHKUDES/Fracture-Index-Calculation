@@ -14,7 +14,7 @@ We have provided three synthetic data in the head of the codes, Case 1—regular
 S<sub>I</sub> = {50, 50, 50, 50, 50, 50, 30, 30, 30, 30, 30, 10, 10, 10, 10, 10, 10, 40, 40, 40, 40, 40, 15, 15, 15, 15, 15, 15, 15} (unit: cm).
 ![This is an image](https://github.com/zihanliuHKUDES/Fracture-Index-Calculation/blob/main/regular.svg)
 S<sub>II</sub> = {50, 50, 50, 50, 50, 50, 30, 30, 30, 30, 30, 10, 10, 10, 10, 10, 10, 40, 5, 5, 5, 5, 15, 15, 15, 15, 15, 15, 15} (unit: cm).
-![This is an image](https://github.com/zihanliuHKUDES/Fracture-Index-Calculation/blob/main/regular%20with%20NI.svg)
+![This is an image](https://github.com/zihanliuHKUDES/Fracture-Index-Calculation/blob/main/regular%20with%20HF.svg)
 S<sub>III</sub> = {50, 45, 65, 55, 40, 53, 31, 35, 38, 39, 28, 11, 15, 10, 16, 17, 14, 42, 5, 4.9, 4, 1, 12, 13, 14, 15, 11, 13, 18} (unit: cm).
 
 ![This is an image](https://github.com/zihanliuHKUDES/Fracture-Index-Calculation/blob/main/random.svg)
