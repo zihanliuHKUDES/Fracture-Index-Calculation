@@ -5,11 +5,11 @@ Wong L. N. Y., Liu Z., Tse K. K. C., Cheung S. H., Yu L. (2023) A computational 
 ## Requirement:
 The methods are realized using MATLAB R2022a. The precondition of using this program is that the fracture spacing data of joints and Non-Intact segments on the core run are identified by an AI-based computer vision method or other methods.
 ## Instructions:
-The algorithm is implemented in our self-coded MATLAB program for its high efficiency in matrix calculation and powerful data visualization. Besides, Matlab codes are easy to be understood and adapted. Some comments follow the codes in lines can be helpful for getting familiar with this program.
+The algorithm is implemented in our self-coded MATLAB program for its high efficiency in matrix calculation and powerful data visualization. Besides, MATLAB codes are easy to be understood and adapted. Some comments follow the codes in lines can be helpful for getting familiar with this program.
 
 You need to provide the fracture spacing as an array to the codes. As examples show in the head of the codes, the input fracture spacing array should be included in the array “si”. Then, you need to set up some parameters which will highly affect the results of outputs. “cv” is the critical spacing (cm) in the codes. “cn” is the critical number. “minG” is the minimum group member number. As for the detailed introduction of these parameters, you can refer to the Reference. After determining the parameters, just run the codes. Then, it will show the fracture grouping result and fracture index of the core runs.
 
-We have provided three synthetic data, Case 1—regular spacings, Case 2—regular spacings with an HF segment, and Case 3—random non-identical spacings with an HF segment, as follows:
+We have provided three synthetic data in the head of the codes, Case 1—regular spacings, Case 2—regular spacings with an HF segment, and Case 3—random non-identical spacings with an HF segment, as follows:
 
 S<sub>I</sub> = {50, 50, 50, 50, 50, 50, 30, 30, 30, 30, 30, 10, 10, 10, 10, 10, 10, 40, 40, 40, 40, 40, 15, 15, 15, 15, 15, 15, 15} (unit: cm).
 ![This is an image](https://github.com/zihanliuHKUDES/Fracture-Index-Calculation/blob/main/regular.svg)
