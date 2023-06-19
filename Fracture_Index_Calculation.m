@@ -22,7 +22,7 @@ for i=1:size(si,2)
     if(si(i) <= cv & si(i)>0)
         n = n + 1;  % count number of small spacing
         if(i>2)     % indentify NI segment
-            if(si(i-2)<0)
+            if(si(i-2)<0 && si(i-1)<0)
                 r = r + 1;
                 nign = si(i-2:i-1); % i-n-1 add former one fracture
                 nig(r,1:size(nign,2)) = nign; % log HF group
@@ -47,7 +47,7 @@ for i=1:size(si,2)
         end
         n = 0;
         if(i>2)     % indentify NI segment
-            if(si(i-2)<0)
+            if(si(i-2)<0 && si(i-1)<0)
                 r = r + 1;
                 nign = si(i-2:i-1); % i-n-1 add former one fracture
                 nig(r,1:size(nign,2)) = nign; % log HF group
