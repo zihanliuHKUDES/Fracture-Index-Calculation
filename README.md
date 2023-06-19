@@ -10,7 +10,7 @@ We have implemented the algorithm in our self-coded MATLAB program, including co
 
 The precondition of using this program is that the fracture spacing data of joints and Non-Intact (NI) segments on the core run are identified by an AI-based computer vision method or other methods. Users need to provide the fracture spacing as an array to the codes. As shown in the head of the codes, the input fracture spacing array should be included in the array “*si*”.
 
-Then, users need to set up some parameters which will affect the results of outputs. In the codes, “*cv*” is the critical spacing (cm). “*cn*” is the critical number. “*minG*” is the minimum group member number. Refer to the **Reference** for of these parameters.
+Then, users need to set up some parameters which will affect the results of outputs. In the codes, “*cv*” is the critical spacing (cm). “*cn*” is the critical number. “*minG*” is the minimum group member number. Refer to the **Reference** for these parameters.
 
 Run the codes based on the above pre-determined parameters. The fracture grouping result and fracture index of the core runs will be obtained and shown.
 
